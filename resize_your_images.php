@@ -8,7 +8,7 @@
 
 ###############################################################*/
 
-$dir    = 'c:\xampp\htdocs\photo_resizer\images'; // <--- this is your directory images
+$dir    = 'c:\xampp\htdocs\Photo_resizer\images'; // <--- this is your directory images
 $files = scandir($dir);
 $allfiles = implode("~~~",$files);
 $count = substr_count($allfiles,"~~~");
